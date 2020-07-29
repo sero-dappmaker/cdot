@@ -277,7 +277,7 @@ const WithDrawTokenForm = Form.create({name: 'form_in_modal4'})(
                             label={`${Lang[that.props.lang].account.title.total} (${hascdot} CDOT)`}>
                             {getFieldDecorator('Amount', {
                                 rules: [{required: true, message: `Please Input Amount! `}],
-                            })(<InputNumber min={0} precision={6} max={parseFloat(sero)} step={100}
+                            })(<InputNumber min={0} precision={6} max={parseFloat(hascdot)} step={100}
                                             style={{width: '60%'}} onChange={(v) => {
                                 that.setState({amount: v});
                                 // that.setState({buy_amount: v});

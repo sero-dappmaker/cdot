@@ -126,7 +126,9 @@ d)分享收益每日结算，可提现可复投。
 5.技术占股6%
 6.系统开源，数据上链，代码写定，去中心化记账，没有后门，不可篡改，自动运行，自动分
 7.系统公开合约规则及默认推荐码,玩家可在无推荐人的情况下主动参与。
-8.开源代码查询地址:https://github.com/sero-dappmaker/cdot/
+8.开源代码查询地址:
+https://github.com/sero-dappmaker/cdot/
+https://gitee.com/cdot/cdot
 以上规则智能合约解析!`,
         }
     };
@@ -253,7 +255,9 @@ Except for the performance of the largest direct promotion department, all the o
 5. Technology accounts for 6%
 6. The system is open source, data is on the chain, code is written, decentralized accounting, no back door, non-tamperable, automatic operation, automatic distribution
 7. The system discloses the contract rules and the default recommendation code, and players can take the initiative to participate without a recommender.
-8. Open source code query address:https://github.com/sero-dappmaker/cdot/
+8. Open source code query address:
+https://github.com/sero-dappmaker/cdot/
+https://gitee.com/cdot/cdot
 The above rules and smart contract analysis!`,
         },
     }
@@ -382,7 +386,9 @@ PS; прямое нажатие 1 человек занимает 1 слой, п
 5. Технология составляет 6%
 6. Система с открытым исходным кодом, данные находятся в цепочке, код написан, децентрализованный учет, нет черного хода, не вмешивается, автоматическое управление, автоматическое распространение
 7. Система раскрывает правила контракта и код рекомендации по умолчанию, и игроки могут проявить инициативу к участию без рекомендации.
-8. Открытый запрос исходного кода:https://github.com/sero-dappmaker/cdot/
+8. Открытый запрос исходного кода:
+https://github.com/sero-dappmaker/cdot/
+https://gitee.com/cdot/cdot
 Вышеуказанные правила и умный анализ контракта!`,
         }
     };
@@ -511,7 +517,9 @@ d) 현금 분배 및 재투자를 통해 공유 소득이 매일 정산됩니다
 5. 기술은 6 %를 차지합니다
 6. 시스템은 오픈 소스이며, 데이터는 체인에 있으며, 코드가 작성되며, 분산 회계, 백도어, 변조 불가능, 자동 조작, 자동 배포가 없습니다.
 7. 시스템은 계약 규칙과 기본 추천 코드를 공개하고 플레이어는 추천없이 참여를 주도 할 수 있습니다.
-8. 오픈 소스 코드 쿼리 주소 :https://github.com/sero-dappmaker/cdot/
+8. 오픈 소스 코드 쿼리 주소 :
+https://github.com/sero-dappmaker/cdot/
+https://gitee.com/cdot/cdot
 위의 규칙과 현명한 계약 분석!`,
         }
     };
@@ -640,7 +648,9 @@ d）収入の分配は、現金の引き出しと再投資により毎日解決�
 5.テクノロジーは6％を占める
 6.システムはオープンソースであり、データはチェーン上にあり、コードが記述され、分散会計、バックドアなし、改ざん不可能、自動操作、自動配布
 7.システムは契約ルールとデフォルトの推奨コードを公開し、プレーヤーは主導権を握って推奨者なしで参加できます。
-8.オープンソースコードのクエリアドレス：https://github.com/sero-dappmaker/cdot/
+8.オープンソースコードのクエリアドレス：
+https://github.com/sero-dappmaker/cdot/
+https://gitee.com/cdot/cdot
 上記のルールとスマート契約分析！`,
         }
     };
