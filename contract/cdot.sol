@@ -837,8 +837,8 @@ contract CDOT is InvestorRelationship, Ownable {
 
     function withdrawToken(uint256 amount) public{
         require(tokenBalances[msg.sender] >= amount, "Insufficient token");
-        require(isDebug || sero_send_token(msg.sender, TOKEN_CURRENCY, amount), "Withdraw failed!");
         tokenBalances[msg.sender] = tokenBalances[msg.sender].sub(amount);
+        require(isDebug || sero_send_token(msg.sender, TOKEN_CURRENCY, amount), "Withdraw failed!");
     }
 
     function registerNode(address addr) public onlyOwner {
