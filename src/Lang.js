@@ -100,7 +100,7 @@ class Lang {
 CDO制度解析
 合约规则
 1.以推荐码作推荐链接关系。
-2.静态收益:为合约地址币数总量的三十分之一加权分配,确保了该智能合约永久运行，享受首条匿名公链的未来愉快价值空间。而单个帐户的当天静态返还=个人当前未返还总数÷全网当前未返还总数x当天返还总数;另外单个帐户日最高释放量为预计总收益的千分之三点三，超出部分会继续返回合约池继续分配。
+2.静态收益:为合约地址币数总量的三十分之一加权分配,确保了该智能合约永久运行，享受首条匿名公链的未来愉快价值空间。而单个帐户的当天静态返还=个人当前未返还总数÷全网当前未返还总数x当天返还总数;另外单个帐户日最高释放量为预计总收益的千分之三点三，超出部分会继续返回合约池继续分配。对于已经回本的用户每天收益按照正常收益的30%发放。
 玩家参与条件:
 A级：100-4999		SERO静+动态奖2倍出局;
 B级: 5000-29999		SERO静+动态奖3倍出局;
@@ -227,7 +227,7 @@ d)分享收益每日结算，可提现可复投。
             rule:`Analysis of CDO System
 Contract rules
 1. Use the recommendation code as the recommendation link relationship.
-2. Static income: a weighted distribution of one-thirtieth of the total amount of coins in the contract address, ensuring the permanent operation of the smart contract and enjoying the future pleasant value space of the first anonymous public chain. The static return of a single account on the day = the total number of individuals currently not returned ÷ the total number of current non-returns on the entire network x the total number of returns on the day; the maximum daily release of a single account is 3.3% of the estimated total revenue, and the excess will continue to be returned to the contract The pool continues to allocate.
+2. Static income: a weighted distribution of one-thirtieth of the total amount of coins in the contract address, ensuring the permanent operation of the smart contract and enjoying the future pleasant value space of the first anonymous public chain. The static return of a single account on the day = the total number of individuals currently not returned ÷ the total number of current non-returns on the entire network x the total number of returns on the day; the maximum daily release of a single account is 3.3% of the estimated total revenue, and the excess will continue to be returned to the contract The pool continues to allocate.For users who have paid back their daily income, the daily income will be distributed at 30% of the normal income.
 Player participation conditions:
 Level A: 100-4999 SERO static + dynamic award 2 times out;
 Level B: 5000-29999 SERO static + dynamic prize 3 times out;
@@ -356,7 +356,7 @@ The above rules and smart contract analysis!`,
             rule:`Анализ системы CDO
 Правила договора
 1. Используйте код рекомендации в качестве отношения ссылки рекомендации.
-2. Статический доход: взвешенное распределение одной трети от общего количества монет в адресе контракта, обеспечивающее постоянную работу смарт-контракта и имеющее пространство будущей приятной стоимости первой анонимной публичной цепочки. Статический возврат одной учетной записи в день = общее количество физических лиц, которые в настоящее время не возвращены ÷ общее количество текущих невозвращений во всей сети x общее количество возвратов в день, максимальный ежедневный выпуск одной учетной записи составляет 3,3% от предполагаемой общей выручки, и излишек будет по-прежнему возвращаться в контракт. Пул продолжает выделяться.
+2. Статический доход: взвешенное распределение одной трети от общего количества монет в адресе контракта, обеспечивающее постоянную работу смарт-контракта и имеющее пространство будущей приятной стоимости первой анонимной публичной цепочки. Статический возврат одной учетной записи в день = общее количество физических лиц, которые в настоящее время не возвращены ÷ общее количество текущих невозвращений во всей сети x общее количество возвратов в день, максимальный ежедневный выпуск одной учетной записи составляет 3,3% от предполагаемой общей выручки, и излишек будет по-прежнему возвращаться в контракт. Пул продолжает выделяться.Для пользователей, вернувших свой дневной доход, дневной доход составит 30% от обычного дохода.
 Условия участия игрока:
 Уровень A: 100-4999 SERO статическое + динамическое вознаграждение 2 раза;
 Уровень B: 5000-29999 SERO статический + динамический приз 3 раза;
@@ -485,7 +485,7 @@ PS; прямое нажатие 1 человек занимает 1 слой, п
             rule:`CDO 시스템 분석
 계약 규칙
 1. 추천 코드를 추천 링크 관계로 사용하십시오.
-2. 정적 수입 : 계약 주소에있는 총 코인 금액의 30 분의 1의 가중 분배로, 스마트 계약의 영구적 인 운영을 보장하고 첫 익명의 공개 체인의 미래의 유쾌한 가치 공간을 즐기십시오. 당일 단일 계정의 정적 반품 = 현재 반환되지 않은 총 개인 수 ÷ 전체 네트워크의 현재 비 반품 총 수 x 당일의 총 수익 수; 단일 계정의 최대 일일 릴리스는 총 예상 총 수입의 3.3 %이며 초과분은 계속 계약서에 반환됩니다 풀은 계속 할당됩니다.
+2. 정적 수입 : 계약 주소에있는 총 코인 금액의 30 분의 1의 가중 분배로, 스마트 계약의 영구적 인 운영을 보장하고 첫 익명의 공개 체인의 미래의 유쾌한 가치 공간을 즐기십시오. 당일 단일 계정의 정적 반품 = 현재 반환되지 않은 총 개인 수 ÷ 전체 네트워크의 현재 비 반품 총 수 x 당일의 총 수익 수; 단일 계정의 최대 일일 릴리스는 총 예상 총 수입의 3.3 %이며 초과분은 계속 계약서에 반환됩니다 풀은 계속 할당됩니다.일 소득을 상환 한 사용자의 경우 일 소득은 정상 소득의 30 %가됩니다.
 플레이어 참여 조건 :
 레벨 A : 100-4999 SERO 정적 + 동적 보너스 2 회 제한;
 레벨 B : 5000-29999 SERO 정적 + 동적 상금 3 번 초과;
@@ -614,7 +614,7 @@ d) 현금 분배 및 재투자를 통해 공유 소득이 매일 정산됩니다
             rule:`CDOシステムの分析
 契約ルール
 1.推奨リンク関係として推奨コードを使用します。
-2.静的収入：契約アドレス内のコインの総量の30分の1の加重分布。スマートコントラクトの永続的な運用を保証し、最初の匿名パブリックチェーンの将来の快適なバリュースペースを享受します。当日の単一アカウントの静的収益=現在返されていない個人の総数÷ネットワーク全体の現在の非収益の合計数x当日の収益の合計数;単一アカウントの最大日次リリースは推定総収益の3.3％であり、超過分は引き続き契約に返還されますプールは引き続き割り当てられます。
+2.静的収入：契約アドレス内のコインの総量の30分の1の加重分布。スマートコントラクトの永続的な運用を保証し、最初の匿名パブリックチェーンの将来の快適なバリュースペースを享受します。当日の単一アカウントの静的収益=現在返されていない個人の総数÷ネットワーク全体の現在の非収益の合計数x当日の収益の合計数;単一アカウントの最大日次リリースは推定総収益の3.3％であり、超過分は引き続き契約に返還されますプールは引き続き割り当てられます。1日の収入を返済したユーザーの場合、1日の収入は通常の収入の30％で分配されます。
 プレイヤー参加条件：
 レベルA：100-4999 SERO静的+動的アワード2回。
 レベルB：5000-29999 SERO静的+動的賞金3回。
