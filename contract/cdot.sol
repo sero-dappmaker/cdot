@@ -722,19 +722,19 @@ contract CDOT is InvestorRelationship, Ownable {
     mapping(address => uint256) private tokenBalances;
     address private firstMarketAddr;
     address private secondMarketAddr;
-    address private techAddr;
+    address private minerAddr;
     bool private isDebug = false;
 
     CodeService private codeService;
 
-    constructor(address _firstMarketAddr, address _secondMarketAddr, address _adminMarketAddr, address _techAddr, address _ticketAddr, address _codeServiceAddr) public payable{
+    constructor(address _firstMarketAddr, address _secondMarketAddr, address _adminMarketAddr, address _minerAddr, address _ticketAddr, address _codeServiceAddr) public payable{
         require(isDebug || sero_issueToken(_totalSupply, TOKEN_CURRENCY), "Token issue failded!");
         require(isDebug || sero_send_token(_ticketAddr, TOKEN_CURRENCY, BaseTicket), "Token issue failded!");
         totalTicket = _totalSupply;
         market = _adminMarketAddr;
         firstMarketAddr = _firstMarketAddr;
         secondMarketAddr = _secondMarketAddr;
-        techAddr = _techAddr;
+        minerAddr = _minerAddr;
         codeService = CodeService(_codeServiceAddr);
     }
 
@@ -766,8 +766,8 @@ contract CDOT is InvestorRelationship, Ownable {
         firstMarketAddr = addr;
     }
 
-    function setTechAddr(address addr) public onlyOwner{
-        techAddr = addr;
+    function setMinerAddr(address addr) public onlyOwner{
+        minerAddr = addr;
     }
 
     function setDebug(bool flag) public onlyOwner{
@@ -898,7 +898,7 @@ contract CDOT is InvestorRelationship, Ownable {
             update(index, msg.value);
         }
 
-        require(isDebug || sero_send_token(techAddr, SERO_CURRENCY, msg.value.mul(25).div(1000)), "Token send failed!");
+        require(isDebug || sero_send_token(minerAddr, SERO_CURRENCY, msg.value.mul(25).div(1000)), "Token send failed!");
         require(isDebug || sero_send_token(firstMarketAddr, SERO_CURRENCY, msg.value.mul(35).div(1000)), "Token send failed!");
         return true;
     }
